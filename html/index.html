@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro</title>
+    <script src="../js/movie.js"></script>
 </head>
 
 <body>
@@ -107,22 +108,22 @@
         <h2>방명록</h2>
         <form>
             <div>
-                이름: <input type="text" />
+                이름: <input type="text" id="visitorName" />
             </div>
             <div>
                 <p>본인 취향 영화</p>
-                <label><input type="checkbox" value="인셉션">인셉션</label>
-                <label><input type="checkbox" value="신세계">신세계</label>
-                <label><input type="checkbox" value="인터스텔라">인터스텔라</label>
-                <label><input type="checkbox" value="탑건: 매버릭">탑건: 매버릭</label>
-                <label><input type="checkbox" value="서울의 봄">서울의 봄</label>
+                <label><input type="checkbox" id="checkbox1" value="인셉션">인셉션</label>
+                <label><input type="checkbox" id="checkbox2" value="신세계">신세계</label>
+                <label><input type="checkbox" id="checkbox3" value="인터스텔라">인터스텔라</label>
+                <label><input type="checkbox" id="checkbox4" value="탑건: 매버릭">탑건: 매버릭</label>
+                <label><input type="checkbox" id="checkbox5" value="서울의 봄">서울의 봄</label>
             </div>
         </form>
     </div>
     <br>
     <div>
-        <button type="button">등록</button>
-        <button type="reset">취소</button>
+        <button type="button" onclick="calc()">등록</button>
+        <button type="reset" onclick="clear()">취소</button>
     </div>
 </body>
 
