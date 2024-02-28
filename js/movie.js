@@ -25,8 +25,7 @@ function countCheckBox() {
     return num;
 }
 
-function clear() {
-    console.log("clear");
+function clearCheckbox() {
     document.getElementById("checkbox1").checked = false;
     document.getElementById("checkbox2").checked = false;
     document.getElementById("checkbox3").checked = false;
